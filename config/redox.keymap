@@ -30,11 +30,11 @@
 
         layer_1 {
             bindings = <
-&trans        &kp F1         &kp F2          &kp F3              &kp F4           &kp F5                                                    &kp F6  &kp F7  &kp F8  &kp F9    &kp F10      &trans
-&kp CAPSLOCK  &kp F6         &kp F7          &kp F8              &kp F9           &kp F10              &trans                    &trans     &trans  &trans  &trans  &trans    &trans       &trans
-&kp F11       &kp PAGE_UP    &kp LEFT_ARROW  &kp UP_ARROW        &kp RIGHT_ARROW  &kp PRINTSCREEN      &to 2                     &trans     &trans  &trans  &trans  &trans    &trans       &trans
-&kp F12       &kp PAGE_DOWN  &kp HOME        &kp DOWN_ARROW      &kp END          &kp LA(PRINTSCREEN)  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans    &kp PAGE_UP  &trans
-&trans        &trans         &kp LEFT_GUI    &kp K_CONTEXT_MENU  &trans                                &trans  &trans    &trans  &kp RCTRL          &trans  &trans  &kp HOME  &kp PG_DN    &kp END
+&trans        &kp F1         &kp F2          &kp F3              &kp F4           &kp F5                                                    &kp F6         &kp F7    &kp F8          &kp F9     &kp F10      &kp C_PAUSE
+&kp CAPSLOCK  &kp F6         &kp F7          &kp F8              &kp F9           &kp F10              &trans                    &trans     &trans         &trans    &trans          &trans     &trans       &kp C_MUTE
+&kp F11       &kp PAGE_UP    &kp LEFT_ARROW  &kp UP_ARROW        &kp RIGHT_ARROW  &kp PRINTSCREEN      &to 2                     &trans     &kp PG_UP      &kp LEFT  &kp UP_ARROW    &kp RIGHT  &trans       &kp C_VOLUME_UP
+&kp F12       &kp PAGE_DOWN  &kp HOME        &kp DOWN_ARROW      &kp END          &kp LA(PRINTSCREEN)  &trans  &trans    &trans  &trans     &kp PAGE_DOWN  &kp HOME  &kp DOWN_ARROW  &kp END    &kp PAGE_UP  &kp C_VOLUME_DOWN
+&trans        &trans         &kp LEFT_GUI    &kp K_CONTEXT_MENU  &trans                                &trans  &trans    &trans  &kp RCTRL                 &trans    &trans          &kp HOME   &kp PG_DN    &kp END
             >;
         };
 

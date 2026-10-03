@@ -20,11 +20,11 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |     RAISE     | LEFT  | DOWN | UP |   RIGHT   |
 
             bindings = <
-&kp ESC     &kp N1    &kp N2            &kp N3             &kp N4  &kp N5                                                                      &kp N6  &kp N7  &kp N8         &kp N9          &kp N0          &kp BSPC
-&kp TAB     &kp Q     &kp W             &kp E              &kp R   &kp T   &kp GRAVE                                      &kp MINUS            &kp Y   &kp U   &kp I          &kp O           &kp P           &kp DELETE
-&kp DELETE  &kp A     &kp S             &kp D              &kp F   &kp G   &kp KP_ENTER                                   &kp EQUAL            &kp H   &kp J   &kp K          &kp L           &kp SEMI        &kp ENTER
-&kp LSHFT   &kp Z     &kp X             &kp C              &kp V   &kp B   &kp LEFT_SHIFT  &kp LEFT_ALT        &kp SQT    &kp LC(RIGHT_SHIFT)  &kp N   &kp M   &kp COMMA      &kp DOT         &kp UP_ARROW    &kp RSHFT
-&kp LCTRL   &kp LALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mo 1           &kp SPACE       &kp LEFT_CONTROL    &kp SLASH  &kp RIGHT_ALT                &mo 1   &kp BACKSLASH  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
+&kp ESC     &kp N1    &kp N2            &kp N3             &kp N4  &kp N5                                                                                 &kp N6  &kp N7  &kp N8     &kp N9          &kp N0          &kp BSPC
+&kp TAB     &kp Q     &kp W             &kp E              &kp R   &kp T   &kp GRAVE                                                 &kp MINUS            &kp Y   &kp U   &kp I      &kp O           &kp P           &kp DELETE
+&kp DELETE  &kp A     &kp S             &kp D              &kp F   &kp G   &kp KP_ENTER                                              &kp EQUAL            &kp H   &kp J   &kp K      &kp L           &kp SEMI        &kp ENTER
+&kp LSHFT   &kp Z     &kp X             &kp C              &kp V   &kp B   &kp LEFT_SHIFT  &kp LEFT_ALT        &kp NON_US_BACKSLASH  &kp LC(RIGHT_SHIFT)  &kp N   &kp M   &kp COMMA  &kp DOT         &kp UP_ARROW    &kp RSHFT
+&kp LCTRL   &kp LALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mo 1           &kp SPACE       &kp LEFT_CONTROL    &kp SQT               &kp RIGHT_ALT                &mo 1   &kp SLASH  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
             >;
         };
 
@@ -40,21 +40,11 @@
 
         layer_2 {
             bindings = <
-&trans          &trans          &trans  &trans  &trans  &trans                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &kp TAB         &kp Q   &kp Z   &kp E   &kp R   &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LEFT_SHIFT  &kp A   &kp W   &kp D   &kp F   &kp T                     &to 0   &trans  &trans  &trans  &trans  &trans  &to 0
-&trans          &kp LEFT_SHIFT  &kp X   &kp S   &kp C   &kp V   &kp G   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans          &trans  &trans  &kp B           &trans  &trans    &trans  &trans          &to 0   &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans     &trans          &trans  &trans  &trans  &trans                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp TAB         &kp Q   &kp X   &kp E   &kp R   &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp PG_UP  &kp LEFT_SHIFT  &kp A   &kp W   &kp D   &kp F   &kp T                     &to 0   &trans  &trans  &trans  &trans  &trans  &to 0
+&kp PG_DN  &kp LEFT_SHIFT  &kp Z   &kp S   &kp C   &kp V   &kp G   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp P      &kp LCTRL       &trans  &trans  &kp B           &trans  &trans    &trans  &trans          &to 0   &trans  &trans  &trans  &trans
             >;
         };
     };

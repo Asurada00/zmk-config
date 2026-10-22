@@ -22,11 +22,11 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |     RAISE     | LEFT  | DOWN | UP |   RIGHT   |
 
             bindings = <
-&kp ESC     &kp SQT       &kp N2            &kp N3             &kp N4  &kp N5                                                                                   &kp N6  &kp N7  &kp N8        &kp N9          &kp DELETE     &kp BACKSPACE
-&kp TAB     &kp NUMBER_1  &kp W             &kp E              &kp R   &kp T   &kp GRAVE                                                   &kp MINUS            &kp Y   &kp U   &kp I         &kp O           &kp N0         &kp BACKSLASH
-&kp DELETE  &kp Q         &kp S             &kp D              &kp F   &kp G   &kp KP_ENTER                                                &kp EQUAL            &kp H   &kp J   &kp K         &kp L           &kp P          &kp ENTER
-&kp LSHFT   &kp A         &kp X             &kp C              &kp V   &kp B   &kp LEFT_SHIFT  &kp LEFT_ALT        &kp LA(LC(LEFT_SHIFT))  &kp LC(RIGHT_SHIFT)  &kp N   &kp M   &kp COMMA     &kp DOT         &kp SEMICOLON  &kp RSHFT
-&kp LCTRL   &kp Z         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mo 1           &kp SPACE       &kp LEFT_CONTROL    &kp SLASH               &kp RIGHT_ALT                &mo 1   &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT       &kp RIGHT
+&kp ESC     &kp SQT       &kp N2            &kp N3             &kp N4  &kp N5                                                                          &kp N6  &kp N7  &kp N8        &kp N9          &kp DELETE     &kp BACKSPACE
+&kp TAB     &kp NUMBER_1  &kp W             &kp E              &kp R   &kp T   &kp GRAVE                                          &kp MINUS            &kp Y   &kp U   &kp I         &kp O           &kp N0         &kp BACKSPACE
+&kp DELETE  &kp Q         &kp S             &kp D              &kp F   &kp G   &kp KP_ENTER                                       &kp EQUAL            &kp H   &kp J   &kp K         &kp L           &kp P          &kp ENTER
+&kp LSHFT   &kp A         &kp X             &kp C              &kp V   &kp B   &kp LEFT_SHIFT  &kp LEFT_ALT        &kp BACKSLASH  &kp LC(RIGHT_SHIFT)  &kp N   &kp M   &kp COMMA     &kp DOT         &kp SEMICOLON  &kp RSHFT
+&kp LCTRL   &kp Z         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mo 1           &kp SPACE       &kp LEFT_CONTROL    &kp SLASH      &kp RIGHT_ALT                &mo 1   &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT       &kp RIGHT
             >;
         };
 

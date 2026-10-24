@@ -43,20 +43,10 @@
         layer_2 {
             bindings = <
 &trans     &kp NUMBER_1    &trans  &trans  &trans  &trans                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp TAB         &kp Q   &kp X   &kp E   &kp R   &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp TAB         &kp Q   &kp X   &kp E   &kp R   &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp PG_UP  &kp LEFT_SHIFT  &kp A   &kp W   &kp D   &kp F   &kp T                     &to 0   &trans  &trans  &trans  &trans  &trans  &to 0
 &kp PG_DN  &kp LEFT_SHIFT  &kp Z   &kp S   &kp C   &kp V   &kp G   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp P      &kp LCTRL       &trans  &trans  &kp B           &trans  &trans    &trans  &trans          &to 0   &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
